@@ -1,7 +1,7 @@
 # Test-spa
 Test site Spa
 
-![](https://andreivl.github.io/Test-spa/images/about__2.jpg)
+![](https://andreivl.github.io/Test-spa/images/Site-Spa.jpg)
 
 ## Link repo
 https://github.com/AndreiVl/Test-spa
