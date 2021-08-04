@@ -1,0 +1,20 @@
+section.discounts
+	div.wrap-1
+		div.container
+			div.wrap-2
+				div.row
+					div.col-12.col-md-8.offset-md-2
+						include ../title/title.pug
+						+title({title: "Лучшие скидки лета", desc: "Мы всегда стараемся радовать наших клиентов приятными скидками на услуги комплекса"})
+
+		div.container
+			div.row
+				div.col-12.col-md-4.d-flex
+					include ../card/card.pug
+					+card({discount: '-25%', img: 'card-discount__01.jpg', price: '3 500 р.', title: 'Ручной массаж всей поверхности тела ', desc:'Массаж применяется в качестве лечебно-профилактического'})
+
+				div.col-12.col-md-4.d-flex
+					+card({discount: '-25%', img: 'card-discount__02.jpg', price: '3 500 р.', title: 'Ручной массаж всей поверхности тела ', desc:'Массаж применяется в качестве лечебно-профилактического'})
+
+				div.col-12.col-md-4.d-flex
+					+card({discount: '-25%', img: 'card-discount__03.jpg', price: '3 500 р.', title: 'Ручной массаж всей поверхности тела ', desc:'Массаж применяется в качестве лечебно-профилактического'})

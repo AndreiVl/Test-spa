@@ -1,0 +1,41 @@
+/*
+ * Grid
+ *
+ */
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1200px,
+);
+
+/*
+ * Fonts
+ *
+ */
+
+$font-main: "Open Sans", sans-serif;
+
+/*
+ * Color
+ *
+ */
+
+$color-brand: #7e406d;
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-bg: #f5f5f5;
+
+$color-text-1: #999999;
+$color-text-2: #777777;
+$color-text-3: $color-black;
+
+/*
+ * Animation Speed
+ *
+ */
+
+$animation-speed: 0.6s;

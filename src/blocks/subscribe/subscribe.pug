@@ -1,0 +1,10 @@
+div.subscribe
+	div.subscribe__phone
+		p Записаться:
+			a.subscribe__link(href="tel:+78001234567") +7 (800) 123-45-67
+		span Или оставь свой номер, и мы перезвоним.
+
+	form.subscribe__form
+		input.subscribe__input(type="tel", placeholder="Введите телефон")
+		include ../btn/btn.pug
+		+btn({text: 'Отправить'})(class="btn--brand")

@@ -1,0 +1,44 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Style Guide')
+
+	body
+
+		//include ../blocks/icon/icon.pug
+		//+icon('icon--fb')
+		//+icon('icon--in')
+		//+icon('icon--lotus')
+		//+icon('icon--tw')
+		
+		//include ../blocks/btn/btn.pug
+		//+btn({text: 'Подробнее'})
+		//+btn({text: 'Подробнее'})(class="btn--outline")
+		//+btn({text: 'Записаться'})(class="btn--brand")
+
+		include ../blocks/about/about.pug
+		include ../blocks/subscribe-wrap/subscribe-wrap.pug
+		include ../blocks/discounts/discounts.pug
+		include ../blocks/procedures/procedures.pug
+		include ../blocks/news/news.pug
+		include ../blocks/subscribe-wrap/subscribe-wrap.pug
+		include ../blocks/map/map.pug
+		include ../blocks/footer/footer.pug
+
+
+		//include ../blocks/subscribe/subscribe.pug
+		//include ../blocks/logo/logo.pug
+		//include ../blocks/menu/menu.pug
+		//include ../blocks/card/card.pug
+		//+card({discount: '-25%', img: 'card-discount__01.jpg', price: '3 500 р.', title: 'Ручной массаж всей поверхности тела ', desc:'Массаж применяется в качестве лечебно-профилактического'})
+		//+card({img: 'card__01.jpg', title: 'Ручной массаж всей поверхности тела'})
+		//include ../blocks/header/header.pug
+		//include ../blocks/home-top/home-top.pug
+		//include ../blocks/photos/photos.pug
+		//include ../blocks/procedures-info/procedures-info.pug
+		//include ../blocks/title/title.pug
+		//+title({title: "Оздоровительный комплекс SPA", desc: "Если вы хотите отдохнуть от рабочих будней, разгрузить свои мысли и зарядиться силами, то наш Spa-комплекс идеально подойдёт для вас."})
+
+			
+		
+		include include/script.pug

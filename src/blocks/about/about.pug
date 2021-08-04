@@ -1,0 +1,22 @@
+section.about
+	div.wrap-1
+		div.container
+			div.row
+				div.col-12.col-md-8.offset-md-2
+					include ../title/title.pug
+					+title({title: "Оздоровительный комплекс SPA", desc: "Если вы хотите отдохнуть от рабочих будней, разгрузить свои мысли и зарядиться силами, то наш Spa-комплекс идеально подойдёт для вас."})
+
+				div.col-12
+					div.about__btn
+						include ../btn/btn.pug
+						+btn({text: 'Наши процедуры'})
+
+	div.container-fluid
+		div.row.no-gutters
+			div.col-12.col-md-6
+				div.about__img
+					img(src="images/about__1.jpg" alt="")
+
+			div.col-12.col-md-6
+				div.about__img
+					img(src="images/about__2.jpg" alt="")

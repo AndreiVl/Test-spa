@@ -1,0 +1,16 @@
+mixin card(data)
+	div.card
+		a.card__img(href="#")
+			if(data.discount)
+				span.card__discount!=data.discount
+			img(src="images/"+data.img, alt=data.title)
+
+		div.card__body
+			if(data.price)
+				p.card__price!=data.price
+
+			a.card__title(href="#")
+				h3!=data.title
+
+			if(data.desc)
+				p.card__desc!=data.desc

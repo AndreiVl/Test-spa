@@ -1,0 +1,26 @@
+.news {
+	/* 4 Decor */
+	background-color: $color-brand;
+}
+.news .title__icon .icon{
+	/* 4 Decor */
+	fill: $color-white;
+}
+.news .title__title {
+	/* 3 Typography */
+	color: $color-white;
+}
+.news .title__desc {
+	/* 3 Typography */
+	color: $color-white;
+}
+.news .card__body {
+	/* 2 Block model */
+	padding: 22px 50px;
+}
+.news__btn {
+	/* 2 Block model */
+	padding-top: 44px;
+	/* 3 Typography */
+	text-align: center;
+}

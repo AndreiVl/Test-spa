@@ -1,0 +1,62 @@
+.footer {
+	/* 3 Typography */
+	text-align: center;
+}
+.footer .logo {
+	/* 2 Block model */
+	margin: auto;
+}
+.footer__text {
+	/* 2 Block model */
+	display: inline-block;
+	margin-bottom: 29px;
+	padding-top: 23px;
+
+	/* 3 Typography */
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	color: $color-text-1;
+}
+.footer__list {
+	/* 2 Block model */
+	margin: 0 0 17px 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	/* 4 Decor */
+	list-style: none;
+}
+.footer__item {
+	/* 2 Block model */
+	padding: 0 12px;
+}
+.footer__item:first-child {
+	/* 2 Block model */
+	padding: 0 25px 0 0;
+}
+.footer__item:last-child {
+	/* 2 Block model */
+	padding: 0 0 0 23px;
+}
+.footer .menu__list {
+	/* 2 Block model */
+	justify-content: center;
+}
+.footer .menu__item a {
+	/* 3 Typography */
+	color: $color-text-2;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Decor */
+
+/* 5 Animation*/
+
+/* 6 Sundry */

@@ -1,0 +1,42 @@
+.home-top {
+	/* 4 Decor */
+	background-image: url(../images/home-top.jpg);
+	background-size: cover;
+}
+.home-top__body {
+	/* 3 Typography */
+	text-align: center;
+}
+.home-top__top {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 33px;
+	color: $color-white;
+	text-transform: uppercase;
+}
+.home-top__title {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 33px;
+	color: $color-white;
+	text-transform: uppercase;
+}
+.home-top__discount {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 33px;
+	color: $color-white;
+	text-transform: uppercase;
+}

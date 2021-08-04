@@ -1,0 +1,30 @@
+.about {
+	/* 2 Block model */
+	padding-top: 70px;
+}
+.about .title {
+	/* 2 Block model */
+	margin-bottom: 44px;
+}
+.about__btn {
+	/* 3 Typography */
+	text-align: center;
+}
+.about .container-fluid {
+	/* 2 Block model */
+	padding: 0;
+}
+.about__img {
+	/* 2 Block model */
+	margin-bottom: 10px;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+	}
+}
+.about__img img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+}

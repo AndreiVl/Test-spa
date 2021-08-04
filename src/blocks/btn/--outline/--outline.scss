@@ -1,0 +1,9 @@
+.btn--outline {
+	/* 4 Decor */
+	border: 1px solid $color-bg;
+	background-color: transparent;
+}
+.btn--outline .btn__text {
+	/* 3 Typography */
+	color: $color-white;
+}

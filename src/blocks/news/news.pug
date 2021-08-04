@@ -1,0 +1,28 @@
+section.news
+	div.wrap-1
+		div.container
+			div.row
+				div.col-12.col-md-8.offset-md-2
+					div.wrap-2
+						include ../title/title.pug
+						+title({title: "Новости", desc: "Мы всегда стараемся радовать наших клиентов приятными скидками на услуги комплекса."})
+
+			div.row.news__body
+				div.col-12.col-md-6.col-lg-3.d-flex
+					include ../card/card.pug
+					+card({img: 'card__01.jpg', title: 'Ручной массаж всей поверхности тела'})
+
+				div.col-12.col-md-6.col-lg-3.d-flex
+					+card({img: 'card__02.jpg', title: 'Ручной массаж всей поверхности тела'})
+
+				div.col-12.col-md-6.col-lg-3.d-flex
+					+card({img: 'card__03.jpg', title: 'Ручной массаж всей поверхности тела'})
+
+				div.col-12.col-md-6.col-lg-3.d-flex
+					+card({img: 'card__01.jpg', title: 'Ручной массаж всей поверхности тела'})
+
+			div.row
+				div.col-12
+					div.news__btn
+						include ../btn/btn.pug
+						+btn({text: 'Подробнее'})(class="btn--outline")

@@ -1,0 +1,9 @@
+mixin title(data)
+	div.title
+		div.title__icon
+			include ../icon/icon.pug
+			+icon('icon--lotus')
+
+		h2.title__title!=data.title
+
+		p.title__desc!=data.desc
